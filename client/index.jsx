@@ -12,6 +12,9 @@ import { fromJS }                       from 'immutable';
 import { applyMiddleware } from 'redux';
 import promiseMiddleware   from 'lib/promiseMiddleware';
 
+require('../semantic/dist/semantic.min.css');
+require('../semantic/dist/semantic.min.js');
+
 const history = createBrowserHistory();
 
 let initialState = window.__INITIAL_STATE__;
