@@ -1,6 +1,7 @@
 import React                  from 'react';
 import { bindActionCreators } from 'redux';
 import { connect }            from 'react-redux';
+//const imgTest = require('../../images/online.jpg');
 
 
 export default class OwnerDetails extends React.Component {
@@ -15,6 +16,7 @@ export default class OwnerDetails extends React.Component {
         		<p>
         			<span> Naboo School of design </span>
         		</p>
+            <img src=''/>
         	</div>
         	<div className="two wide column">
         		<h1>14.2K</h1>

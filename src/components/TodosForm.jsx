@@ -1,10 +1,10 @@
 import React from 'react';
+import cookie from 'react-cookie';
 
 export default class TodosForm extends React.Component {
   
   handleSubmit = () => {
     let node = this.refs['todo-input'];
-    
     this.props.createTodo(node.value);
     
     node.value = '';

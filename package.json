@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_PATH=$NODE_PATH:./shared node --harmony .",
+    "start": "NODE_PATH=$NODE_PATH:./src node --harmony .",
     "dev": "npm run start & webpack-dev-server --progress --color",
     "build": "NODE_ENV=production webpack --progress --color -p --config webpack.prod.config.js"
   },
@@ -16,15 +16,20 @@
     "express": "^4.13.3",
     "file-loader": "^0.8.5",
     "history": "^1.9.1",
+    "img-loader": "^1.2.2",
     "immutable": "^3.7.5",
+    "jshint": "^2.9.1",
+    "jshint-loader": "^0.8.3",
     "object-assign": "^4.0.1",
     "react": "^0.14.0",
+    "react-cookie": "^0.4.5",
     "react-dom": "^0.14.0",
     "react-redux": "^4.0.0",
     "react-router": "1.0.0-rc3",
     "redux": "^3.0.0",
     "semantic-ui": "^2.1.8",
-    "url-loader": "^0.5.7"
+    "url-loader": "^0.5.7",
+    "webpack-isomorphic-tools": "^2.2.48"
   },
   "devDependencies": {
     "babel": "^5.8.23",
